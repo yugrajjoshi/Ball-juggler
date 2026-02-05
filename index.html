@@ -19,10 +19,10 @@
 
       <!-- Canvas wrapper for video and game canvas -->
       <div class="canvas-wrapper">
-        <!-- Video element for webcam -->
+        <!-- Video element for webcam (mirrored) -->
         <video id="webcam" autoplay playsinline></video>
 
-        <!-- Game canvas-->
+        <!-- Game canvas (transparent, overlays video) -->
         <canvas id="gameCanvas" width="640" height="480"></canvas>
 
         <!-- Game state overlay -->
@@ -38,7 +38,19 @@
       </div>
     </div>
 
- 
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+      <div class="loading-content">
+        <div class="loader"></div>
+        <h2>Loading TensorFlow.js</h2>
+        <p id="loadingStatus">Initializing models...</p>
+      </div>
+    </div>
+
+    <!-- Load TensorFlow.js and MediaPipe Hands -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection"></script>
 
     <!-- Load game modules -->
     <script src="handTracking.js"></script>

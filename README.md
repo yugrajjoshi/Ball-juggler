@@ -15,12 +15,6 @@ Air Juggler is a gesture-controlled game that provides an interactive canvas-bas
 - CSS styling with animations
 - UI components (start button, score display, game overlay)
 
-### In Development
-
-- Game logic and ball physics
-- Hand tracking integration
-- Scoring system and level progression
-- Audio and sound effects
 
 ## Project Structure
 

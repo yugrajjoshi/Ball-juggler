@@ -14,6 +14,12 @@ Air Juggler is a gesture-controlled game that provides an interactive canvas-bas
 - HTML structure and layout
 - CSS styling with animations
 - UI components (start button, score display, game overlay)
+- Hand gesture detection
+- Multiple difficulty levels
+- Score tracking
+- Responsive design
+- Sound effects and visual feedback
+- Game completion conditions
 
 ## Project Structure
 
@@ -25,16 +31,6 @@ AirJuggler/
 ├── handtrakker.js   # Hand tracking (in development)
 └── README.md        # Documentation
 ```
-
-## Planned Features
-
-- Hand gesture detection
-- Multiple difficulty levels
-- Score tracking
-- Responsive design
-- Sound effects and visual feedback
-- Game completion conditions
-
 ## Technology Stack
 
 - HTML5

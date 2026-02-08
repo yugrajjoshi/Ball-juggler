@@ -73,10 +73,10 @@ The game requires camera access. You will be prompted to allow webcam permission
 1. Implement sound effects
 1. Cross-browser testing
 
-## Game Canvas
+## tru out here 
+https://yugrajjoshi.github.io/Ball-juggler/
 
 - Resolution: 640x480 pixels
 - Background: Black canvas
 - Display: Webcam feed with game overlay
 
-Note: Game logic and hand tracking modules are currently in development.

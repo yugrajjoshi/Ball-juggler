@@ -6,21 +6,6 @@ A web-based interactive game where players use hand gestures detected via webcam
 
 Air Juggler is a gesture-controlled game that provides an interactive canvas-based gaming experience with a responsive user interface and  animations.
 
-## Current Status
-
-### Completed
-
-- Frontend UI (fully styled and responsive)
-- HTML structure and layout
-- CSS styling with animations
-- UI components (start button, score display, game overlay)
-- Hand gesture detection
-- Multiple difficulty levels
-- Score tracking
-- Responsive design
-- Sound effects and visual feedback
-- Game completion conditions
-
 ## Project Structure
 
 ```text

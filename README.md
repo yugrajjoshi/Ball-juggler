@@ -61,7 +61,5 @@ The game requires camera access. You will be prompted to allow webcam permission
 ## tru out here 
 https://yugrajjoshi.github.io/Ball-juggler/
 
-- Resolution: 640x480 pixels
-- Background: Black canvas
-- Display: Webcam feed with game overlay
+
 
